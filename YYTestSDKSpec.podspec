@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YYTestSDKSpec"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "just for test."
 
   # This description is used to generate tags and improve search results.
@@ -24,8 +24,8 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  #spec.description  = <<-DESC
-  #                 DESC
+  spec.description  = <<-DESC
+                   just for test
 
   spec.homepage     = "https://github.com/ChuanqingYang/YYSDKTest"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "YYTestSDK/YYTestSDK/*"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -110,7 +110,7 @@ Pod::Spec.new do |spec|
   # spec.resources = "Resources/*.png"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
-  #spec.ios.vendored_frameworks   = 'simulator/*.framework'
+  # spec.ios.vendored_frameworks   = 'universal/*.framework'
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
